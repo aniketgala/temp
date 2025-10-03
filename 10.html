@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 1 Layout</title>
+    <style>
+      .container {
+        width: 1200px;
+        height: 1000px;
+        margin: 20px auto;
+        display: grid;
+        grid-template-rows: 200px 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 30px;
+
+        border: 5px solid rgb(0, 153, 255);
+      }
+
+      .header {
+        grid-column: 1 / 4;
+        background: #f9f9f9;
+        margin: ;
+        outline: 5px solid rgb(0, 155, 64);
+      }
+
+      .left {
+        background: #f9f9f9;
+        margin-right: 50px; ;
+        outline: 5px solid rgb(211, 13, 40);
+      }
+
+      .middle-top, .middle-bottom {
+        background: #f9f9f9;
+        margin-right:50px ;
+        outline: 5px solid rgb(60, 255, 0);
+      }
+
+      .middle {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        mar
+      }
+
+      .right {
+        background: #f9f9f9;
+        
+        outline: 5px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header"></div>
+      <div class="left"></div>
+      <div class="middle">
+        <div class="middle-top"></div>
+        <div class="middle-bottom"></div>
+      </div>
+      <div class="right"></div>
+    </div>
+  </body>
+</html>
